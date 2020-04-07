@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Get the list of earthquakes from {@link QueryUtils}
         ArrayList<Earthquake> earthquakes = QueryUtils.extractEarthquakes();
-        
+
         // Find a reference to the {@link ListView} in the layout
         ListView earthquakeListView = (ListView) findViewById(R.id.list);
 
