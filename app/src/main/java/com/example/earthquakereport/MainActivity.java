@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public Loader<List<Earthquake>> onCreateLoader(int id, Bundle args) {
-        
+
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
         String minMagnitude = sharedPrefs.getString(
                 getString(R.string.settings_min_magnitude_key),
